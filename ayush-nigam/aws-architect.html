@@ -6,35 +6,47 @@
     <title>Ayush Nigam - Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.8;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f4f4f9;
             color: #333;
         }
         .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            font-size: 24px;
-            margin-bottom: 10px;
+        header {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 28px;
             color: #333;
+            margin: 0;
+        }
+        header p {
+            font-size: 16px;
+            color: #555;
         }
         h2 {
-            font-size: 20px;
+            font-size: 22px;
             margin-top: 20px;
-            color: #555;
+            color: #007bff;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
         }
         h3 {
             font-size: 18px;
             margin-top: 15px;
-            color: #666;
+            color: #333;
         }
         p {
             margin: 5px 0;
@@ -48,7 +60,8 @@
         }
         .contact-info {
             font-size: 14px;
-            color: #555;
+            color: #666;
+            text-align: center;
         }
         .highlight {
             color: #007bff;
@@ -61,11 +74,20 @@
         a:hover {
             text-decoration: underline;
         }
+        footer {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 30px;
+            color: #888;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Ayush Nigam <span class="highlight">(2+ years with AWS DevOps)</span></h1>
+        <header>
+            <h1>Ayush Nigam</h1>
+            <p><span class="highlight">2+ years with AWS DevOps</span></p>
+        </header>
         <p class="contact-info">
             Email: <a href="mailto:ayushnigam0001@gmail.com">ayushnigam0001@gmail.com</a> | 
             GitHub: <a href="https://github.com/ayushnigam0001">ayushnigam0001</a> | 
@@ -99,7 +121,7 @@
             <li><strong>Others:</strong> Microsoft ADDS, ELK Stack, AWS CLI, AWS IAM</li>
         </ul>
 
-        <h3>Roles & Responsibility</h3>
+        <h3>Roles & Responsibilities</h3>
         <ul>
             <li>Deployment and horizontal scaling of EKS (Elastic Kubernetes Service).</li>
             <li>Design, configure, and deploy infrastructure on AWS using Terraform.</li>
@@ -115,6 +137,10 @@
             <li>Using Helm Charts with Argo CD deployments in Kubernetes Cluster.</li>
             <li>Troubleshooting issues and resolving problems with appropriate solutions.</li>
         </ul>
+        
+        <footer>
+            <p>&copy; 2025 Ayush Nigam. All Rights Reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
