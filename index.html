@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+
+    <!-- START -->
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CJKV6SXPPS"></script>
     <script>
@@ -11,14 +12,15 @@
 
     gtag('config', 'G-CJKV6SXPPS');
     </script>
+    <!-- END -->
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayush Nigam</title>
+    <title>Ayush Nigam - Resume</title>
     <style>
         body {
             font-family: 'Roboto', Arial, sans-serif;
-            line-height: 1.8;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
@@ -27,37 +29,43 @@
         .container {
             max-width: 900px;
             margin: 30px auto;
-            background: #ffffff;
+            background: #fff;
             padding: 30px;
-            border-radius: 10px;
+            border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        header {
-            text-align: center;
-            border-bottom: 2px solid #007bff;
-            padding-bottom: 10px;
+        .header {
+            display: flex;
+            align-items: center;
             margin-bottom: 20px;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
         }
-        header h1 {
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #007bff;
+            margin-right: 20px;
+        }
+        h1 {
             font-size: 28px;
-            color: #333;
-            margin: 0;
-        }
-        header p {
-            font-size: 16px;
-            color: #555;
+            margin-bottom: 10px;
+            color: #007bff;
+            font-weight: bold;
         }
         h2 {
             font-size: 22px;
-            margin-top: 20px;
-            color: #007bff;
-            border-bottom: 1px solid #ddd;
+            margin-top: 30px;
+            color: #000000;
+            border-bottom: 1px solid #eaeaea;
             padding-bottom: 5px;
         }
         h3 {
             font-size: 18px;
-            margin-top: 15px;
-            color: #333;
+            margin-top: 20px;
+            color: #252729;
+            font-weight: bold;
         }
         p {
             margin: 5px 0;
@@ -67,12 +75,12 @@
             margin: 10px 0;
         }
         ul li {
-            margin: 5px 0;
+            margin: 8px 0;
+            font-size: 16px;
         }
         .contact-info {
             font-size: 14px;
-            color: #666;
-            text-align: center;
+            color: #555;
         }
         .highlight {
             color: #007bff;
@@ -85,31 +93,31 @@
         a:hover {
             text-decoration: underline;
         }
-        footer {
-            text-align: center;
-            font-size: 14px;
-            margin-top: 30px;
-            color: #888;
+        .keyword {
+            font-weight: bold;
+            color: #007bff;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Ayush Nigam</h1>
-            <p><span class="highlight">2+ years with AWS DevOps</span></p>
-        </header>
-        <p class="contact-info">
-            Email: <a href="mailto:ayushnigam0001@gmail.com">ayushnigam0001@gmail.com</a> | 
-            GitHub: <a href="https://github.com/ayushnigam0001">ayushnigam0001</a> | 
-            LinkedIn: <a href="https://linkedin.com/in/the-ayush-nigam">the-ayush-nigam</a> | 
-            Phone: +91-9826191572
-        </p>
-        <p class="contact-info">Current Employer: Cognizant Technology Solutions</p>
-        <p class="contact-info">Address: Bangalore, Karnataka, India</p>
+        <div class="header">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQF6iYhBWEE5MQ/profile-displayphoto-shrink_400_400/B4DZRJ_RpRHcAg-/0/1736408127499?e=1742428800&v=beta&t=NyeG5TrMUcPEU1XjSDYpClfbfjC4NRdM6-9q6I4SVNM" alt="Ayush Nigam" class="profile-image">
+            <div>
+                <h1>Ayush Nigam <span class="highlight">(2+ years with AWS DevOps)</span></h1>
+                <p class="contact-info">
+                    Email: <a href="mailto:ayushnigam0001@gmail.com">ayushnigam0001@gmail.com</a> | 
+                    GitHub: <a href="https://github.com/ayushnigam0001">ayushnigam0001</a> | 
+                    LinkedIn: <a href="https://linkedin.com/in/the-ayush-nigam">the-ayush-nigam</a> | 
+                    Phone: +91-9826191572
+                </p>
+                <p class="contact-info">Current Employer: Cognizant Technology Solutions</p>
+                <p class="contact-info">Address: Bangalore, Karnataka, India</p>
+            </div>
+        </div>
 
         <h2>About</h2>
-        <p>Good understanding of technologies with strong basics which provide leverage to grab advanced technologies in better and faster ways.</p>
+        <p>A <span class="keyword">dedicated professional</span> with strong understanding of technologies and the ability to <span class="keyword">leverage advanced tools</span> to deliver <span class="keyword">innovative solutions</span>.</p>
 
         <h2>Professional Experience</h2>
 
@@ -122,36 +130,32 @@
 
         <h3>Tech Stack</h3>
         <ul>
-            <li><strong>AWS Services:</strong> EC2, VPC, RDS, Secret Manager, Elastic Beanstalk, CloudFormation, IAM</li>
-            <li><strong>Linux:</strong> Disk Management, Service Management, Upgrades</li>
-            <li><strong>IAC Tools:</strong> Terraform, Ansible, CloudFormation AWS Code Build</li>
-            <li><strong>Build Tools:</strong> AWS Code Build, GitHub Actions, Jenkins</li>
-            <li><strong>Containerisation and Orchestration CD Tools:</strong> Docker, Kubernetes</li>
-            <li><strong>Operating System:</strong> RHEL Linux, Windows Server</li>
-            <li><strong>Service Now (Ticketing Tool):</strong> JIRA</li>
-            <li><strong>Others:</strong> Microsoft ADDS, ELK Stack, AWS CLI, AWS IAM</li>
+            <li><span class="keyword">AWS Services:</span> EC2, VPC, RDS, Secret Manager, Elastic Beanstalk, CloudFormation, IAM</li>
+            <li><span class="keyword">Linux:</span> Disk Management, Service Management, Upgrades</li>
+            <li><span class="keyword">IAC Tools:</span> Terraform, Ansible, CloudFormation AWS Code Build</li>
+            <li><span class="keyword">Build Tools:</span> AWS Code Build, GitHub Actions, Jenkins</li>
+            <li><span class="keyword">Containerisation and Orchestration CD Tools:</span> Docker, Kubernetes</li>
+            <li><span class="keyword">Operating System:</span> RHEL Linux, Windows Server</li>
+            <li><span class="keyword">Service Now:</span> JIRA</li>
+            <li><span class="keyword">Others:</span> Microsoft ADDS, ELK Stack, AWS CLI, AWS IAM</li>
         </ul>
 
-        <h3>Roles & Responsibilities</h3>
+        <h3>Roles & Responsibility</h3>
         <ul>
-            <li>Deployment and horizontal scaling of EKS (Elastic Kubernetes Service).</li>
-            <li>Design, configure, and deploy infrastructure on AWS using Terraform.</li>
-            <li>Deploy build artifacts to JFrog Artifactory Repository.</li>
-            <li>Managing various deployments like in-place deployments.</li>
-            <li>Manage containerized applications at scale using Kubernetes.</li>
-            <li>Creating, updating, and renewing TLS/SSL certificates for secure authentication.</li>
-            <li>Configuring reverse proxy servers to forward calls to applications.</li>
-            <li>Creation and updating of API Gateway.</li>
+            <li>Deployment and <span class="keyword">horizontal scaling</span> of <span class="keyword">EKS</span> (Elastic Kubernetes Service).</li>
+            <li>Design, configure, and deploy <span class="keyword">infrastructure on AWS</span> using Terraform.</li>
+            <li>Deploy build artifacts to <span class="keyword">JFrog Artifactory Repository</span>.</li>
+            <li>Managing various <span class="keyword">deployments</span>, including in-place deployments.</li>
+            <li>Manage <span class="keyword">containerized applications</span> at scale using Kubernetes.</li>
+            <li>Creating, updating, and renewing <span class="keyword">TLS/SSL certificates</span> for secure authentication.</li>
+            <li>Configuring <span class="keyword">reverse proxy servers</span> to forward calls to applications.</li>
+            <li>Creation and updating of <span class="keyword">API Gateway</span>.</li>
             <li>Disk management of servers, including mounting and increasing disk space in Linux and Windows servers.</li>
-            <li>Creating CI pipelines for microservices to push to JFrog.</li>
-            <li>Creating and updating Octopus Deployment pipelines.</li>
-            <li>Using Helm Charts with Argo CD deployments in Kubernetes Cluster.</li>
+            <li>Creating <span class="keyword">CI pipelines</span> for microservices to push to JFrog.</li>
+            <li>Creating and updating <span class="keyword">Octopus Deployment pipelines</span>.</li>
+            <li>Using <span class="keyword">Helm Charts</span> with <span class="keyword">Argo CD deployments</span> in Kubernetes Cluster.</li>
             <li>Troubleshooting issues and resolving problems with appropriate solutions.</li>
         </ul>
-        
-        <footer>
-            <p>&copy; 2025 Ayush Nigam. All Rights Reserved.</p>
-        </footer>
     </div>
 </body>
 </html>
